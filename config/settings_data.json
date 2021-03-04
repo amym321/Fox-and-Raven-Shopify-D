@@ -1,0 +1,783 @@
+{
+  "current": {
+    "color_text": "#0f245a",
+    "color_body_text": "#0f245a",
+    "color_button": "#0f245a",
+    "color_small_button_text_border": "#f3f3f3",
+    "color_text_field_text": "#0f245a",
+    "color_text_field": "#fff",
+    "color_image_overlay_text": "#0f245a",
+    "color_image_overlay": "#cccccc",
+    "image_overlay_opacity": 0,
+    "color_body_bg": "#f3f3f3",
+    "type_header_font": "alfie_n4",
+    "type_base_font": "alfie_n4",
+    "type_base_size": 16,
+    "sections": {
+      "header": {
+        "type": "header",
+        "settings": {
+          "align_logo": "left",
+          "logo": "shopify:\/\/shop_images\/logo12b.png",
+          "logo_max_width": 250,
+          "main_linklist": "main-menu",
+          "message": true,
+          "home_page_only": true,
+          "message_text": "Due to Covid-19, your order may take longer to be delivered",
+          "color_bg": "#0f245a",
+          "color_text": "#ffffff"
+        }
+      },
+      "hero-1": {
+        "type": "hero",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/necklace_9.jpg",
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "large",
+          "text_size": "medium",
+          "title": "",
+          "text": "",
+          "button_label": ""
+        }
+      },
+      "feature-row": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/tree_2e.jpg",
+          "layout": "right",
+          "title": "Your Purchase Supports the Environment",
+          "text": "<p>We at Fox and Raven care about our environment. Every sale plants a tree through a donation to One Tree Planted, a charity dedicated to creating a healthier climate through global reforestation. Love your earth.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-columns": {
+        "type": "feature-columns",
+        "disabled": true,
+        "blocks": {
+          "feature-columns-0": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-1": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          },
+          "feature-columns-2": {
+            "type": "text_block",
+            "settings": {
+              "enable_image": true,
+              "title": "Add a title or tagline",
+              "text": "<p>Share blog posts, products, or promotions with your customers. Use this text to describe products, share details on availability and style, or as a space to display recent reviews or FAQs.<\/p>",
+              "button_label": ""
+            }
+          }
+        },
+        "block_order": [
+          "feature-columns-0",
+          "feature-columns-1",
+          "feature-columns-2"
+        ],
+        "settings": {
+          "title": "",
+          "align_text": "left"
+        }
+      },
+      "collection": {
+        "type": "collection",
+        "settings": {
+          "title": "Necklaces",
+          "collection": "necklaces",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": true
+        }
+      },
+      "hero-2": {
+        "type": "hero",
+        "disabled": true,
+        "settings": {
+          "alignment": "center",
+          "hero_layout": "full_width",
+          "hero_size": "medium",
+          "text_size": "large",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "button_label": ""
+        }
+      },
+      "quotes": {
+        "type": "quotes",
+        "blocks": {
+          "quotes-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          },
+          "quotes-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Add customer reviews and testimonials to showcase your store’s happy customers.<\/p>",
+              "author": "Author's name"
+            }
+          }
+        },
+        "block_order": [
+          "quotes-0",
+          "quotes-1",
+          "quotes-2"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "image-bar": {
+        "type": "image-bar",
+        "blocks": {
+          "image-bar-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/necklace_1.jpg",
+              "alignment": "center",
+              "cta_label": ""
+            }
+          },
+          "image-bar-2": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/background_light_gray_blue.jpg",
+              "alignment": "center",
+              "cta_label": "Artisan Crafted with Care. Welcome to Fox and Raven Jewelry. We create beautiful, one of a kind handcrafted designs using superior gemstones and metals. Each piece we create is a work of art ~ designed, hand-cut, hammered, polished, drilled and fabricated with care. Inspired by nature's beauty, Fox and Raven incorporates subtle shimmer, colorful gemstones, and textural elements for unsurpassed distinction."
+            }
+          }
+        },
+        "block_order": [
+          "image-bar-1",
+          "image-bar-2"
+        ],
+        "settings": {
+          "section_height": "medium"
+        }
+      },
+      "footer": {
+        "type": "footer",
+        "blocks": {
+          "footer-0": {
+            "type": "link_list",
+            "settings": {
+              "title": "Quick links",
+              "menu": "footer"
+            }
+          },
+          "footer-1": {
+            "type": "newsletter",
+            "settings": {
+              "title": "Newsletter"
+            }
+          }
+        },
+        "block_order": [
+          "footer-0",
+          "footer-1"
+        ],
+        "settings": {
+          "show_payment_icons": true,
+          "color_footer_bg": "#dee1e8",
+          "color_footer_text": "#333232",
+          "show_locale_selector": true,
+          "show_currency_selector": true
+        }
+      },
+      "1614546841520f78a2": {
+        "type": "collection-list",
+        "blocks": {
+          "1614546841520f78a2-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "necklaces"
+            }
+          },
+          "1614546841520f78a2-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "earrings"
+            }
+          },
+          "1614546841520f78a2-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "cuffs-bangles"
+            }
+          }
+        },
+        "block_order": [
+          "1614546841520f78a2-2",
+          "1614546841520f78a2-1",
+          "1614546841520f78a2-0"
+        ],
+        "settings": {
+          "title": "Shop For",
+          "grid": 3
+        }
+      },
+      "1614546971d9971196": {
+        "type": "collection",
+        "settings": {
+          "title": "Bracelets",
+          "collection": "bracelets",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "1614546983b37a0986": {
+        "type": "collection",
+        "settings": {
+          "title": "Cuffs & Bangles",
+          "collection": "cuffs-bangles-1",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "1614547092c792e166": {
+        "type": "collection",
+        "settings": {
+          "title": "Earrings",
+          "collection": "earrings",
+          "grid": 3,
+          "rows": 1,
+          "show_vendor": false,
+          "show_view_all": false
+        }
+      },
+      "1614547197c61f47d2": {
+        "type": "newsletter",
+        "settings": {
+          "section_title": "We don't email often.",
+          "subheading": "<p>But when we do, it&#x27;s sure to be worth it! Don&#x27;t miss a Sale.<\/p>",
+          "show_background": false
+        }
+      },
+      "1614547215bcf86043": {
+        "type": "custom-content",
+        "blocks": {
+          "1614547215bcf86043-0": {
+            "type": "text",
+            "settings": {
+              "title": "Your Purchase Supports the Environment",
+              "text": "<p>We at Fox and Raven care about our environment. Every sale plants a tree through a donation to One Tree Planted, a charity dedicated to creating a healthier climate through global reforestation. Love your earth.<\/p>",
+              "width": "66%",
+              "alignment": "center",
+              "align_text": "left"
+            }
+          },
+          "1614547215bcf86043-1": {
+            "type": "image",
+            "settings": {
+              "image": "shopify:\/\/shop_images\/tree_2e.jpg",
+              "width": "33%",
+              "alignment": "center"
+            }
+          }
+        },
+        "block_order": [
+          "1614547215bcf86043-0",
+          "1614547215bcf86043-1"
+        ],
+        "settings": {
+          "title": ""
+        }
+      },
+      "16145478211077bc3b": {
+        "type": "feature-row",
+        "disabled": true,
+        "settings": {
+          "image": "shopify:\/\/shop_images\/necklace_1.jpg",
+          "layout": "left",
+          "title": "Artisan Crafted with Care",
+          "text": "<p>Welcome to Fox and Raven Jewelry. We create beautiful, one of a kind handcrafted designs using superior gemstones and metals. Each piece we create is a work of art ~ designed, hand-cut, hammered, polished, drilled and fabricated with care.<\/p><p>Inspired by nature&#x27;s beauty, Fox and Raven incorporates subtle shimmer, colorful gemstones, and textural elements for unsurpassed distinction.<\/p>",
+          "button_label": "Buy Lion Necklace"
+        }
+      },
+      "collection-template": {
+        "type": "collection-template",
+        "settings": {
+          "layout": "grid",
+          "grid": 4,
+          "rows": 2,
+          "show_collection_image": true,
+          "show_vendor": false,
+          "sort_enable": true,
+          "tags_enable": true
+        }
+      },
+      "16145546664cb5677e": {
+        "type": "quotes",
+        "blocks": {
+          "16145546664cb5677e-0": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>The beautiful Bronze Bangle is an exquisite one of a kind heirloom quality piece...it looks amazing. The customer service was exceptional, as they expertly and patiently answered all of my questions. I look forward to my next purchase from Fox and Raven!<\/p>",
+              "author": "Audrey"
+            }
+          },
+          "16145546664cb5677e-2": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Thank you again for another beautiful bracelet, my daughter will be very happy. They could not be nicer! And the boxes are elegant too.<\/p>",
+              "author": "Mary"
+            }
+          },
+          "16145546664cb5677e-1": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Stunning! The asymmetrical beads on the Gold Foil Venetian Glass Necklace are so unique and make this a statement necklace for the holidays as well as any special occasion. Beautifully designed, shipped quickly and even prettier than the photo!<\/p>",
+              "author": "Judy"
+            }
+          }
+        },
+        "block_order": [
+          "16145546664cb5677e-0",
+          "16145546664cb5677e-2",
+          "16145546664cb5677e-1"
+        ],
+        "settings": {
+          "title": "Reviews from Our great customers"
+        }
+      },
+      "161481453535cd30ad": {
+        "type": "feature-row",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/brush-stroke_3b_1959f69d-e386-45b6-87ba-fd8aee0e086a.png",
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": ""
+        }
+      }
+    },
+    "content_for_index": [
+      "hero-1",
+      "1614546841520f78a2",
+      "image-bar",
+      "16145478211077bc3b",
+      "collection",
+      "1614546983b37a0986",
+      "1614546971d9971196",
+      "1614547092c792e166",
+      "1614547197c61f47d2",
+      "feature-row",
+      "hero-2",
+      "1614547215bcf86043",
+      "16145546664cb5677e",
+      "feature-columns",
+      "161481453535cd30ad"
+    ]
+  },
+  "presets": {
+    "Default": {
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {}
+        },
+        "hero-1": {
+          "type": "hero",
+          "settings": {
+            "hero_size": "large",
+            "text_size": "large"
+          }
+        },
+        "feature-row": {
+          "type": "feature-row",
+          "settings": {}
+        },
+        "feature-columns": {
+          "type": "feature-columns",
+          "blocks": {
+            "feature-columns-0": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-1": {
+              "type": "text_block",
+              "settings": {}
+            },
+            "feature-columns-2": {
+              "type": "text_block",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "feature-columns-0",
+            "feature-columns-1",
+            "feature-columns-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "collection": {
+          "type": "collection",
+          "settings": {
+            "grid": 4
+          }
+        },
+        "hero-2": {
+          "type": "hero",
+          "settings": {
+            "text_size": "large"
+          }
+        },
+        "quotes": {
+          "type": "quotes",
+          "blocks": {
+            "quotes-0": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-1": {
+              "type": "quote",
+              "settings": {}
+            },
+            "quotes-2": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "quotes-0",
+            "quotes-1",
+            "quotes-2"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "image-bar": {
+          "type": "image-bar",
+          "blocks": {
+            "image-bar-0": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-1": {
+              "type": "image",
+              "settings": {}
+            },
+            "image-bar-2": {
+              "type": "image",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "image-bar-0",
+            "image-bar-1",
+            "image-bar-2"
+          ],
+          "settings": {}
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "footer-0": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "footer-1": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "footer-0",
+            "footer-1"
+          ],
+          "settings": {
+            "show_payment_icons": true
+          }
+        }
+      },
+      "content_for_index": [
+        "hero-1",
+        "feature-row",
+        "feature-columns",
+        "collection",
+        "hero-2",
+        "quotes",
+        "image-bar"
+      ]
+    },
+    "Light": {
+      "color_text": "#162950",
+      "color_body_text": "#6d6d6d",
+      "color_sale_text": "#DA2F0C",
+      "color_borders": "#e4e4e4",
+      "color_button": "#DA2F0C",
+      "color_button_text": "#ffffff",
+      "color_small_button_text_border": "#162950",
+      "color_text_field": "#ffffff",
+      "color_text_field_text": "#162950",
+      "color_text_field_border": "#909090",
+      "color_image_overlay_text": "#ffffff",
+      "color_image_overlay": "#3d3d3d",
+      "image_overlay_opacity": 40,
+      "color_body_bg": "#f8f8f8",
+      "type_header_font": "muli_n6",
+      "type_header_base_size": 26,
+      "type_base_font": "muli_n4",
+      "type_base_size": 18,
+      "share_facebook": true,
+      "share_twitter": true,
+      "share_pinterest": true,
+      "social_twitter_link": "",
+      "social_facebook_link": "",
+      "social_pinterest_link": "",
+      "social_instagram_link": "",
+      "social_tumblr_link": "",
+      "social_snapchat_link": "",
+      "social_youtube_link": "",
+      "social_vimeo_link": "",
+      "favicon": "",
+      "checkout_header_image": "",
+      "checkout_logo_image": "",
+      "checkout_logo_position": "left",
+      "checkout_logo_size": "small",
+      "checkout_body_background_image": "",
+      "checkout_body_background_color": "#ffffff",
+      "checkout_input_background_color_mode": "white",
+      "checkout_sidebar_background_image": "",
+      "checkout_sidebar_background_color": "#e8f3f6",
+      "checkout_heading_font": "Roboto",
+      "checkout_body_font": "Source Sans Pro",
+      "checkout_accent_color": "#1990c6",
+      "checkout_button_color": "#23314e",
+      "checkout_error_color": "#ff6d6d",
+      "sections": {
+        "header": {
+          "type": "header",
+          "settings": {
+            "align_logo": "left",
+            "logo": "",
+            "logo_max_width": 135,
+            "main_linklist": "main-menu",
+            "message": true,
+            "color_bg": "#162950",
+            "color_text": "#ffffff"
+          }
+        },
+        "hero": {
+          "type": "hero",
+          "settings": {
+            "alignment": "center",
+            "hero_size": "x-large",
+            "text_size": "large"
+          }
+        },
+        "slideshow": {
+          "type": "slideshow",
+          "blocks": {
+            "slideshow-0": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center center"
+              }
+            },
+            "1492095993817": {
+              "type": "image",
+              "settings": {
+                "image": "",
+                "alignment": "center"
+              }
+            }
+          },
+          "block_order": [
+            "slideshow-0",
+            "1492095993817"
+          ],
+          "settings": {
+            "slideshow_height": "medium",
+            "text_size": "medium",
+            "autorotate": false,
+            "autorotate_speed": 5
+          }
+        },
+        "featured-collections": {
+          "type": "collection",
+          "settings": {
+            "grid": 3,
+            "rows": 1,
+            "show_vendor": true,
+            "show_view_all": true
+          }
+        },
+        "product-template": {
+          "type": "product-template",
+          "settings": {
+            "show_quantity_selector": false,
+            "show_vendor": false,
+            "show_share_buttons": true,
+            "media_size": "medium",
+            "enable_image_zoom": true,
+            "enable_video_looping": false
+          }
+        },
+        "collection-template": {
+          "type": "collection-template",
+          "settings": {
+            "layout": "grid",
+            "grid": 2,
+            "rows": 2,
+            "show_collection_image": true,
+            "show_vendor": false,
+            "sort_enable": true,
+            "tags_enable": true
+          }
+        },
+        "1492033809691": {
+          "type": "map",
+          "settings": {}
+        },
+        "1492033877875": {
+          "type": "quotes",
+          "blocks": {
+            "1492033877875-0": {
+              "type": "quote",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492033877875-0"
+          ],
+          "settings": {}
+        },
+        "1492033924902": {
+          "type": "custom-content",
+          "blocks": {
+            "1492033924902-0": {
+              "type": "text",
+              "settings": {
+                "width": "100%",
+                "alignment": "center",
+                "align_text": "center"
+              }
+            }
+          },
+          "block_order": [
+            "1492033924902-0"
+          ],
+          "settings": {
+            "title": ""
+          }
+        },
+        "1492096252560": {
+          "type": "collection-list",
+          "blocks": {
+            "1492096252560-0": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-1": {
+              "type": "featured_collection",
+              "settings": {}
+            },
+            "1492096252560-2": {
+              "type": "featured_collection",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "1492096252560-0",
+            "1492096252560-1",
+            "1492096252560-2"
+          ],
+          "settings": {
+            "grid": 3
+          }
+        },
+        "blog-template": {
+          "type": "blog-template",
+          "settings": {
+            "layout": "grid",
+            "blog_show_author": true,
+            "blog_show_date": false
+          }
+        },
+        "article-template": {
+          "type": "article-template",
+          "settings": {
+            "blog_show_author": true,
+            "blog_show_date": true,
+            "show_share_buttons": true
+          }
+        },
+        "cart-template": {
+          "type": "cart-template",
+          "settings": {
+            "cart_notes_enable": false
+          }
+        },
+        "footer": {
+          "type": "footer",
+          "blocks": {
+            "link_list": {
+              "type": "link_list",
+              "settings": {}
+            },
+            "text": {
+              "type": "text",
+              "settings": {}
+            },
+            "newsletter": {
+              "type": "newsletter",
+              "settings": {}
+            }
+          },
+          "block_order": [
+            "link_list",
+            "text",
+            "newsletter"
+          ],
+          "settings": {
+            "color_footer_bg": "#f8f8f8",
+            "color_footer_text": "#6d6d6d"
+          }
+        }
+      },
+      "content_for_index": [
+        "hero",
+        "featured-collections",
+        "slideshow",
+        "1492033924902",
+        "1492096252560",
+        "1492033877875",
+        "1492033809691"
+      ]
+    }
+  }
+}
