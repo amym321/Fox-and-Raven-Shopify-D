@@ -6996,3 +6996,31 @@ hr {
 
 .store-availability-list__phone {
   margin-bottom: 0; }
+
+
+/* ======================================
+/* additions AM
+/* ======================================*/
+
+/* newsletter section - paint brush background  */
+.brush-box {
+  padding: 30px 20px;
+  background-image: url(//cdn.shopify.com/s/files/1/0543/0450/6037/files/brush-stroke_3b.png?); 
+  object-fit: fill;
+  background-size: 100% 100%;
+}
+
+/* custom content section - back image and styling */
+.back-image {
+  padding: 30px 0;
+  background-image: url(//cdn.shopify.com/s/files/1/0543/0450/6037/files/tree40.jpg?); 
+  object-fit: fill;
+  background-size: 100% 100%;
+}
+
+.custom__item {
+  /* margin-bottom: 30px; */
+  padding-left: 50px;
+  /* padding-right: 50px;  */
+}
+
