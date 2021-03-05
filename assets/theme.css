@@ -7012,15 +7012,25 @@ hr {
 
 /* custom content section - back image and styling */
 .back-image {
-  padding: 30px 0;
+  padding: 70px 0;
   background-image: url(//cdn.shopify.com/s/files/1/0543/0450/6037/files/tree40.jpg?); 
   object-fit: fill;
   background-size: 100% 100%;
 }
 
-.custom__item {
-  /* margin-bottom: 30px; */
-  padding-left: 50px;
-  /* padding-right: 50px;  */
+/* custom content section - responsive text */
+@media only screen and (max-width: 749px) {
+  .custom__item {
+    width: 100%;
+  }
 }
 
+/* not working to shrink tree logo */
+#CustomImageWrapper--2-498786435253 {
+  max-width: 50%;
+}
+
+/* header color */
+.site-header__mobile-nav, .site-header {
+  background-color: #dee1e8;
+}
