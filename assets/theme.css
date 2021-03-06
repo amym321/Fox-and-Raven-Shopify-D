@@ -7031,6 +7031,112 @@ hr {
 }
 
 /* header color */
-.site-header__mobile-nav, .site-header {
+.site-header__mobile-nav, 
+.site-header {
   background-color: #dee1e8;
+}
+
+/* font color on collections */
+.collection-grid-item__title {
+  /* color: white; */
+}
+
+/* titles below collections */
+/* .collection-hero__title, */
+.collection-grid {
+  overflow:hidden !important;  
+}
+/* .collection-hero__title, */
+.collection-grid .collection-grid-item__title {
+  transform:none;
+  top:auto;
+}
+#shopify-section-1614820740adf6c655 .grid__item {
+  padding-bottom: 30px;
+}
+
+/*	remove text shadow on gallery  */
+.image-bar__caption,
+.collection-grid-item__title  {
+  text-shadow: none;
+}
+
+/* padding of gallery */
+@media (min-width: 1025px) {
+.image-bar__caption {
+    padding-right: 80px;
+    padding-left: 80px;
+    text-align: left;
+  }
+}
+@media (max-width: 1024px) {
+  .image-bar__caption {
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: left;
+  }
+}
+
+/* width of top collection list */
+/* #shopify-section-1614546841520f78a2 .page-width {
+  padding-right: 0;
+  padding-left: 0;
+} */
+
+/* change this so image with text stretches to edges. 
+also need to add this section to page-width above 
+and see <style> in section for max-width and max-height */
+.feature-row__image-wrapper {
+  margin: 0;
+  /* position: relative;
+  width: 100%; */
+}
+
+/* #shopify-section-16145478211077bc3b  {
+  background-color: #dee1e8;
+} */
+
+/* for use with feature-row (image with text) */
+/* .back-color {
+  background-color: #dee1e8; 
+} */
+
+/* hero for mobile */
+@media (max-width: 480px) {
+  .hero {
+    background-image: url(https://cdn.shopify.com/s/files/1/0543/0450/6037/files/necklace_8.jpg?v=1614987897) !important;
+  }
+}
+
+/* •	collection banner has more height  */
+.collection-hero__image {
+  /* background-size: contain; */
+  height: 400px;
+}
+  
+/* collection title lower */
+.collection-hero__title {
+  top: 75%;
+}
+
+/* change this so image with text stretches to edges */
+#shopify-section-1614546841520f78a2 .page-width,
+#shopify-section-16145478211077bc3b .page-width {
+  max-width:none;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+/* @media only screen and (max-width: 749px) {
+#shopify-section-16145478211077bc3b .page-width {
+    padding-left: 22px;
+    padding-right: 22px;
+  }
+} */
+
+/* text padding on image with text */
+@media only screen and (min-width: 750px) {
+  .feature-row__text--left {
+    padding-right: 35px;
+  }
 }
