@@ -7018,16 +7018,20 @@ hr {
   background-size: 100% 100%;
 }
 
-/* custom content section - responsive text */
+/* custom content section - corrects mobile text and now goes full width  */
 @media only screen and (max-width: 749px) {
   .custom__item {
     width: 100%;
   }
 }
 
-/* not working to shrink tree logo */
-#CustomImageWrapper--2-498786435253 {
-  max-width: 50%;
+/* custom content section - increase font */
+@media only screen and (min-width: 750px) {
+  .custom-text {
+    font-size: calc(((var(--font-size-base) + 1.75) / (var(--font-size-base))) * 1em);
+    font-weight: var(--font-weight-body);
+    font-style: var(--font-style-body);
+  }
 }
 
 /* header color */
@@ -7036,26 +7040,22 @@ hr {
   background-color: #dee1e8;
 }
 
-/* font color on collections */
-.collection-grid-item__title {
-  /* color: white; */
-}
-
 /* titles below collections */
 /* .collection-hero__title, */
 .collection-grid {
-  overflow:hidden !important;  
+  overflow:hidden !important; 
 }
 /* .collection-hero__title, */
 .collection-grid .collection-grid-item__title {
   transform:none;
   top:auto;
 }
-#shopify-section-1614820740adf6c655 .grid__item {
+/* padding under collection titles */
+.collection-grid .grid__item {
   padding-bottom: 30px;
 }
 
-/*	remove text shadow on gallery  */
+/*	remove text shadow on gallery & collection list titles */
 .image-bar__caption,
 .collection-grid-item__title  {
   text-shadow: none;
@@ -7077,10 +7077,69 @@ hr {
   }
 }
 
-/* width of top collection list */
-/* #shopify-section-1614546841520f78a2 .page-width {
-  padding-right: 0;
-  padding-left: 0;
+/* hero for mobile */
+@media (max-width: 480px) {
+  .hero {
+    background-image: url(https://cdn.shopify.com/s/files/1/0543/0450/6037/files/necklace_8.jpg?v=1614987897) !important;
+  }
+}
+
+/* 	collection banner on collection page has more height  */
+.collection-hero__image {
+  /* background-size: contain; */
+  height: 400px;
+}
+
+/* top collection list is wider. less right/left padding  */
+#shopify-section-1614546841520f78a2 .page-width {
+  max-width:none;
+  padding-left: 22px;
+  padding-right: 22px;
+}
+
+@media only screen and (min-width: 750px) {
+  #shopify-section-1614547197c61f47d2  {
+    padding-bottom: 100px;
+  }
+}
+
+/* .button {
+  font-size: calc(var(--font-size-base) * 1px);
+  font-family: var(--font-stack-body);
+  font-style: var(--font-style-body);
+  font-weight: var(--font-weight-body);
+  color: var(--color-text);
+  line-height: 1.5;
+} */
+
+/* .button {
+  background-color: #3f6e7c;
+  color: #fff;
+  font-size: 16px;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+}
+.button:hover {
+  background: #335c68;
+  color: #fff;
+} */
+
+/* text padding on image with text ?? */
+/* @media only screen and (min-width: 750px) {
+  .feature-row__text--left {
+    padding-right: 35px;
+  }
+} */
+
+/* image with text. #shopify-section-16145478211077bc3b  {
+  background-color: #dee1e8;
+} */
+
+/* for use with feature-row (image with text) */
+/* .back-color {
+  background-color: #dee1e8; 
 } */
 
 /* change this so image with text stretches to edges. 
@@ -7092,51 +7151,7 @@ and see <style> in section for max-width and max-height */
   width: 100%; */
 }
 
-/* #shopify-section-16145478211077bc3b  {
-  background-color: #dee1e8;
+/* font color on collections */
+/* .collection-grid-item__title {
+  color: white;
 } */
-
-/* for use with feature-row (image with text) */
-/* .back-color {
-  background-color: #dee1e8; 
-} */
-
-/* hero for mobile */
-@media (max-width: 480px) {
-  .hero {
-    background-image: url(https://cdn.shopify.com/s/files/1/0543/0450/6037/files/necklace_8.jpg?v=1614987897) !important;
-  }
-}
-
-/* •	collection banner has more height  */
-.collection-hero__image {
-  /* background-size: contain; */
-  height: 400px;
-}
-  
-/* collection title lower */
-.collection-hero__title {
-  top: 75%;
-}
-
-/* change this so image with text stretches to edges */
-#shopify-section-1614546841520f78a2 .page-width,
-#shopify-section-16145478211077bc3b .page-width {
-  max-width:none;
-  padding-left: 22px;
-  padding-right: 22px;
-}
-
-/* @media only screen and (max-width: 749px) {
-#shopify-section-16145478211077bc3b .page-width {
-    padding-left: 22px;
-    padding-right: 22px;
-  }
-} */
-
-/* text padding on image with text */
-@media only screen and (min-width: 750px) {
-  .feature-row__text--left {
-    padding-right: 35px;
-  }
-}
