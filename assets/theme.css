@@ -7103,28 +7103,49 @@ hr {
   }
 }
 
-/* .button {
-  font-size: calc(var(--font-size-base) * 1px);
-  font-family: var(--font-stack-body);
-  font-style: var(--font-style-body);
-  font-weight: var(--font-weight-body);
-  color: var(--color-text);
-  line-height: 1.5;
+/* product page - contact button */
+.contact-button1 {
+  background-color: var(--color-btn-primary);
+  color: white;
+}
+.contact-button1:hover {
+  font-size: calc(((var(--font-size-base) - 2) / (var(--font-size-base))) * 1em);
+  font-family: var(--font-stack-header);
+  font-style: var(--font-style-header);
+  font-weight: var(--font-weight-header);
+  text-transform: uppercase;
+	letter-spacing: 0.08em;
+	white-space: normal;
+}
+.contact-button2 {
+  padding-left: 40px;
+  padding-right: 40px;
+  /* padding: 1em 2em; */
+}
+
+/* product page - remove underline on <a> for contact button */
+.contact-button2,
+.contact-button1, 
+.contact-button1:hover,
+.contact-button2:hover {
+  border-bottom: hidden !important;
+  color: white !important;
+}
+
+
+/* image with text - border */
+.feature-row__text {
+  /* border-top:  7px solid;
+  border-bottom:  7px solid; */
+  border-color: rgba(var(--color-text-rgb), 0.7); 
+  /* background-color: #dee1e8; */
+}
+
+/* no. goes around image when image gets small */
+/* .feature-row {
+  background-color: #dee1e8;
 } */
 
-/* .button {
-  background-color: #3f6e7c;
-  color: #fff;
-  font-size: 16px;
-  padding: 10px 30px;
-  text-align: center;
-  display: inline-block;
-  text-decoration: none;
-}
-.button:hover {
-  background: #335c68;
-  color: #fff;
-} */
 
 /* text padding on image with text ?? */
 /* @media only screen and (min-width: 750px) {
