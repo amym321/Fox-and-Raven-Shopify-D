@@ -7122,19 +7122,13 @@ hr {
     padding-left: 43px;
     padding-right: 43px;
   }
-  .contact-button3 {
-    padding-left: 30px;
-    padding-right: 30px;
-  }
 }
 
 /* product page - remove underline on <a> for contact button */
 .contact-button2,
 .contact-button1, 
-.contact-button3, 
 .contact-button1:hover,
-.contact-button2:hover,
-.contact-button3:hover {
+.contact-button2:hover {
   border-bottom: hidden !important;
   color: white !important;
 }
@@ -7216,6 +7210,17 @@ hr {
     width: 66%;
   }
  }
+
+ .gift-img {
+  max-width: 100px
+ }
+ @media screen and (max-width:749px){
+  .gift-img {
+    max-width: 65px
+  }
+}
+
+
 
 
 /* image with text - border */
