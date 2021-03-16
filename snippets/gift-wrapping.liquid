@@ -6,11 +6,11 @@
     <input class="gift-center" id="gift-wrapping" type="checkbox" name="attributes[gift-wrapping]" value="yes" {% if cart.attributes.gift-wrapping %} checked="checked"{% endif %} style="float: none" />
     <label class="gift-center" for="gift-wrapping" style="display:inline; padding-left: 5px; float: none;">
     For {{ linklists.gift-wrapping.links.first.object.price | money }}
-    please wrap the products in this order.  
+    please gift wrap the jewelry in this order.  
     </label>
   </p>
   <p>
-    <label style="display:block" for="gift-note">Gift message (free and optional. You may have a message without gift wrap option.)</label>
+    <label style="display:block" for="gift-note">Gift message (free and optional. You may have a message <b>without</b> gift wrap option.)</label>
     <textarea class="gift-note-text" name="attributes[gift-note]" id="gift-note">{{ cart.attributes.gift-note }}</textarea>
     <img class="gift-img" src="https://cdn.shopify.com/s/files/1/0543/0450/6037/files/gift_wrap_4.jpg?v=1615753599">
   </p>
