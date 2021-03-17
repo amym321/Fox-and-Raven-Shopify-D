@@ -7017,6 +7017,12 @@ hr {
   object-fit: fill;
   background-size: 100% 100%;
 }
+@media only screen and (max-width: 749px) {
+  .back-image {
+    background-size:  auto 100%;
+    background-repeat: no-repeat;
+  }
+}
 
 /* custom content section - corrects mobile text and now goes full width  */
 @media only screen and (max-width: 749px) {
@@ -7119,8 +7125,8 @@ hr {
 }
 @media only screen and (min-width: 1024px) {
   .contact-button2 {
-    padding-left: 43px;
-    padding-right: 43px;
+    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 
@@ -7212,14 +7218,13 @@ hr {
  }
 
  .gift-img {
-  max-width: 100px
+  max-width: 65px
  }
  @media screen and (max-width:749px){
   .gift-img {
-    max-width: 65px
+    max-width: 50px
   }
 }
-
 
 
 
