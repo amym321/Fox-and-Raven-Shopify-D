@@ -10,15 +10,20 @@
     "color_image_overlay": "#cccccc",
     "image_overlay_opacity": 0,
     "color_body_bg": "#f3f3f3",
-    "type_header_font": "alfie_n4",
-    "type_base_font": "alfie_n4",
+    "type_header_font": "cardo_n4",
+    "type_base_font": "abel_n4",
     "type_base_size": 16,
+    "social_facebook_link": "https:\/\/www.facebook.com\/foxandravenjewelry\/",
+    "social_pinterest_link": "https:\/\/www.pinterest.com\/foxandravenjewelry\/",
+    "favicon": "shopify:\/\/shop_images\/favicon2_95424f5f-c3a5-48b7-9656-9cd4ef5613d6.png",
+    "checkout_header_image": "shopify:\/\/shop_images\/banner7.png",
+    "checkout_logo_image": "shopify:\/\/shop_images\/logo14_08edf7cd-66a3-46ec-b24d-a055fa263180.png",
     "sections": {
       "header": {
         "type": "header",
         "settings": {
           "align_logo": "left",
-          "logo": "shopify:\/\/shop_images\/logo12b.png",
+          "logo": "shopify:\/\/shop_images\/logo14_08edf7cd-66a3-46ec-b24d-a055fa263180.png",
           "logo_max_width": 250,
           "main_linklist": "main-menu",
           "message": true,
@@ -31,7 +36,7 @@
       "hero-1": {
         "type": "hero",
         "settings": {
-          "image": "shopify:\/\/shop_images\/necklace_9.jpg",
+          "image": "shopify:\/\/shop_images\/necklace_12_43495d87-ce80-4c00-b273-0f3a5eed1ab4.jpg",
           "alignment": "center",
           "hero_layout": "full_width",
           "hero_size": "large",
@@ -49,6 +54,18 @@
           "layout": "right",
           "title": "Your Purchase Supports the Environment",
           "text": "<p>We at Fox and Raven care about our environment. Every sale plants a tree through a donation to One Tree Planted, a charity dedicated to creating a healthier climate through global reforestation. Love your earth.<\/p>",
+          "button_label": ""
+        }
+      },
+      "feature-row-boxes": {
+        "type": "feature-row-boxes",
+        "disabled": true,
+        "settings": {
+          "image": "",
+          "layout": "",
+          "title": "",
+          "text": "<p><\/p>",
+          "color_bg": "",
           "button_label": ""
         }
       },
@@ -105,19 +122,6 @@
           "show_view_all": true
         }
       },
-      "hero-2": {
-        "type": "hero",
-        "disabled": true,
-        "settings": {
-          "alignment": "center",
-          "hero_layout": "full_width",
-          "hero_size": "medium",
-          "text_size": "large",
-          "title": "Image with text overlay",
-          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
-          "button_label": ""
-        }
-      },
       "quotes": {
         "type": "quotes",
         "blocks": {
@@ -154,6 +158,7 @@
       },
       "image-bar": {
         "type": "image-bar",
+        "disabled": true,
         "blocks": {
           "image-bar-1": {
             "type": "image",
@@ -215,63 +220,37 @@
           "1614546841520f78a2-2": {
             "type": "featured_collection",
             "settings": {
-              "collection": "necklaces"
+              "collection": "metalwork"
+            }
+          },
+          "a6464865-0cd6-45fe-b6b1-6f3ad5e1076a": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "gemstones"
             }
           },
           "1614546841520f78a2-1": {
             "type": "featured_collection",
             "settings": {
-              "collection": "earrings"
+              "collection": "murano-glass"
             }
           },
           "1614546841520f78a2-0": {
             "type": "featured_collection",
             "settings": {
-              "collection": "cuffs-bangles"
+              "collection": "pearls"
             }
           }
         },
         "block_order": [
           "1614546841520f78a2-2",
+          "a6464865-0cd6-45fe-b6b1-6f3ad5e1076a",
           "1614546841520f78a2-1",
           "1614546841520f78a2-0"
         ],
         "settings": {
-          "title": "Shop For",
-          "grid": 3
-        }
-      },
-      "1614546971d9971196": {
-        "type": "collection",
-        "settings": {
-          "title": "Bracelets",
-          "collection": "bracelets",
-          "grid": 3,
-          "rows": 1,
-          "show_vendor": false,
-          "show_view_all": false
-        }
-      },
-      "1614546983b37a0986": {
-        "type": "collection",
-        "settings": {
-          "title": "Cuffs & Bangles",
-          "collection": "cuffs-bangles-1",
-          "grid": 3,
-          "rows": 1,
-          "show_vendor": false,
-          "show_view_all": false
-        }
-      },
-      "1614547092c792e166": {
-        "type": "collection",
-        "settings": {
-          "title": "Earrings",
-          "collection": "earrings",
-          "grid": 3,
-          "rows": 1,
-          "show_vendor": false,
-          "show_view_all": false
+          "title": "Revel in the Unique",
+          "grid": 4
         }
       },
       "1614547197c61f47d2": {
@@ -298,7 +277,7 @@
           "1614547215bcf86043-1": {
             "type": "image",
             "settings": {
-              "image": "shopify:\/\/shop_images\/tree_2e.jpg",
+              "image": "shopify:\/\/shop_images\/tree_2b_53f153a9-9dee-4490-996b-d92f31a80c80.png",
               "width": "33%",
               "alignment": "center"
             }
@@ -314,7 +293,6 @@
       },
       "16145478211077bc3b": {
         "type": "feature-row",
-        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/necklace_1.jpg",
           "layout": "left",
@@ -329,7 +307,7 @@
           "layout": "grid",
           "grid": 4,
           "rows": 2,
-          "show_collection_image": true,
+          "show_collection_image": false,
           "show_vendor": false,
           "sort_enable": true,
           "tags_enable": true
@@ -358,25 +336,123 @@
               "quote": "<p>Stunning! The asymmetrical beads on the Gold Foil Venetian Glass Necklace are so unique and make this a statement necklace for the holidays as well as any special occasion. Beautifully designed, shipped quickly and even prettier than the photo!<\/p>",
               "author": "Judy"
             }
+          },
+          "57fca9f4-8005-4de9-813d-7e4a5261c040": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Beautiful earrings! The depth of the color of my murano glass earrings are amazing. They are a perfect match for my sweater. Light weight, but substantial size.<\/p>",
+              "author": "Wendy"
+            }
+          },
+          "29504729-5134-43cc-be43-d67f83126bf4": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Just lovely! Sweet, delicate and simple... the birthday girl recipient was delighted. Many thanks!<\/p>",
+              "author": "Sophie"
+            }
+          },
+          "6af373f5-990a-4832-8584-6e321fea1978": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>We got a gorgeous pendant necklace for Mom and she is going to Love wearing it - just wonderful! Thanks so very much!!<\/p>",
+              "author": "Beth"
+            }
+          },
+          "1d0b366e-0e66-46bd-944a-a7e4de8127d9": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Thank you very much the topaz bracelet is much more beautiful than I expected!<\/p>",
+              "author": "Jenny"
+            }
+          },
+          "7a2ecd70-35d8-4996-bff0-9cfc5c91891f": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Gorgeous red murano necklace! I love it. Excellent store!<\/p>",
+              "author": "Lori"
+            }
+          },
+          "c2c02699-c313-412f-9b8a-1c30641bc7f7": {
+            "type": "quote",
+            "settings": {
+              "quote": "<p>Very kind and helpful! The owner got back to my questions and helped me find the perfect size bangle.<\/p>",
+              "author": "Lisa"
+            }
           }
         },
         "block_order": [
           "16145546664cb5677e-0",
           "16145546664cb5677e-2",
-          "16145546664cb5677e-1"
+          "16145546664cb5677e-1",
+          "57fca9f4-8005-4de9-813d-7e4a5261c040",
+          "29504729-5134-43cc-be43-d67f83126bf4",
+          "6af373f5-990a-4832-8584-6e321fea1978",
+          "1d0b366e-0e66-46bd-944a-a7e4de8127d9",
+          "7a2ecd70-35d8-4996-bff0-9cfc5c91891f",
+          "c2c02699-c313-412f-9b8a-1c30641bc7f7"
         ],
         "settings": {
-          "title": "Reviews from Our great customers"
+          "title": "Reviews From Our Great Customers"
         }
       },
-      "161481453535cd30ad": {
-        "type": "feature-row",
+      "16152394529d793a6c": {
+        "type": "collection-list",
+        "blocks": {
+          "7a3c41f7-b0bc-4e9f-a6ec-638cac7ac224": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "pendants"
+            }
+          },
+          "16152394529d793a6c-2": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "cuffs"
+            }
+          },
+          "16152394529d793a6c-0": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "bangles"
+            }
+          },
+          "16152394529d793a6c-1": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "bracelets"
+            }
+          },
+          "a85e082c-8e2e-4ab7-a22d-42781f6c75ec": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "necklaces"
+            }
+          },
+          "c2d5f1ca-f13d-410e-98b7-5657e0df56f4": {
+            "type": "featured_collection",
+            "settings": {
+              "collection": "earrings"
+            }
+          }
+        },
+        "block_order": [
+          "7a3c41f7-b0bc-4e9f-a6ec-638cac7ac224",
+          "16152394529d793a6c-2",
+          "16152394529d793a6c-0",
+          "16152394529d793a6c-1",
+          "a85e082c-8e2e-4ab7-a22d-42781f6c75ec",
+          "c2d5f1ca-f13d-410e-98b7-5657e0df56f4"
+        ],
         "settings": {
-          "image": "shopify:\/\/shop_images\/brush-stroke_3b_1959f69d-e386-45b6-87ba-fd8aee0e086a.png",
-          "layout": "left",
-          "title": "Image with text",
-          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-          "button_label": ""
+          "title": "Shop by Category",
+          "grid": 3
+        }
+      },
+      "cart-template": {
+        "type": "cart-template",
+        "settings": {
+          "cart_ajax_enable": true,
+          "cart_notes_enable": false
         }
       }
     },
@@ -385,17 +461,10 @@
       "1614546841520f78a2",
       "image-bar",
       "16145478211077bc3b",
-      "collection",
-      "1614546983b37a0986",
-      "1614546971d9971196",
-      "1614547092c792e166",
+      "16152394529d793a6c",
       "1614547197c61f47d2",
-      "feature-row",
-      "hero-2",
       "1614547215bcf86043",
-      "16145546664cb5677e",
-      "feature-columns",
-      "161481453535cd30ad"
+      "16145546664cb5677e"
     ]
   },
   "presets": {
@@ -403,7 +472,8 @@
       "sections": {
         "header": {
           "type": "header",
-          "settings": {}
+          "settings": {
+          }
         },
         "hero-1": {
           "type": "hero",
@@ -414,22 +484,31 @@
         },
         "feature-row": {
           "type": "feature-row",
-          "settings": {}
+          "settings": {
+          }
+        },
+        "feature-row-boxes": {
+          "type": "feature-row-boxes",
+          "settings": {
+          }
         },
         "feature-columns": {
           "type": "feature-columns",
           "blocks": {
             "feature-columns-0": {
               "type": "text_block",
-              "settings": {}
+              "settings": {
+              }
             },
             "feature-columns-1": {
               "type": "text_block",
-              "settings": {}
+              "settings": {
+              }
             },
             "feature-columns-2": {
               "type": "text_block",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -458,15 +537,18 @@
           "blocks": {
             "quotes-0": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             },
             "quotes-1": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             },
             "quotes-2": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -483,15 +565,18 @@
           "blocks": {
             "image-bar-0": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "image-bar-1": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             },
             "image-bar-2": {
               "type": "image",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -499,18 +584,21 @@
             "image-bar-1",
             "image-bar-2"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "footer": {
           "type": "footer",
           "blocks": {
             "footer-0": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "footer-1": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -525,6 +613,7 @@
       "content_for_index": [
         "hero-1",
         "feature-row",
+        "feature-row-boxes",
         "feature-columns",
         "collection",
         "hero-2",
@@ -661,20 +750,23 @@
         },
         "1492033809691": {
           "type": "map",
-          "settings": {}
+          "settings": {
+          }
         },
         "1492033877875": {
           "type": "quotes",
           "blocks": {
             "1492033877875-0": {
               "type": "quote",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
             "1492033877875-0"
           ],
-          "settings": {}
+          "settings": {
+          }
         },
         "1492033924902": {
           "type": "custom-content",
@@ -700,15 +792,18 @@
           "blocks": {
             "1492096252560-0": {
               "type": "featured_collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1492096252560-1": {
               "type": "featured_collection",
-              "settings": {}
+              "settings": {
+              }
             },
             "1492096252560-2": {
               "type": "featured_collection",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
@@ -747,15 +842,18 @@
           "blocks": {
             "link_list": {
               "type": "link_list",
-              "settings": {}
+              "settings": {
+              }
             },
             "text": {
               "type": "text",
-              "settings": {}
+              "settings": {
+              }
             },
             "newsletter": {
               "type": "newsletter",
-              "settings": {}
+              "settings": {
+              }
             }
           },
           "block_order": [
