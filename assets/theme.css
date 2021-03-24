@@ -2309,6 +2309,10 @@ hr {
 .grid-view-item__link {
   display: block; }
 
+.align-center {
+  align-items: center;
+}
+
 .grid-view-item__vendor {
   margin-top: 4px;
   color: var(--color-body-text);
@@ -7012,13 +7016,19 @@ hr {
 
 /* custom content section - back image and styling */
 .back-image {
-  padding: 70px 0;
+  padding: 120px 0;
   background-image: url(//cdn.shopify.com/s/files/1/0543/0450/6037/files/tree40.jpg?); 
   object-fit: fill;
   background-size: 100% 100%;
 }
+@media only screen and (min-width: 750px) and (max-width: 1025px){
+  .back-image {
+    padding: 50px 0;
+  }
+}
 @media only screen and (max-width: 749px) {
   .back-image {
+    padding: 35px 0;
     background-size:  auto 100%;
     background-repeat: no-repeat;
   }
@@ -7085,7 +7095,7 @@ hr {
 
 /* hero for mobile */
 @media (max-width: 480px) {
-  .hero {
+  #shopify-section-hero-1 .hero {
     background-image: url(https://cdn.shopify.com/s/files/1/0543/0450/6037/files/necklace_8.jpg?v=1614987897) !important;
   }
 }
@@ -7226,48 +7236,42 @@ hr {
   }
 }
 
-
-
-/* image with text - border */
-.feature-row__text {
-  /* border-top:  7px solid;
-  border-bottom:  7px solid; */
-  border-color: rgba(var(--color-text-rgb), 0.7); 
-  /* background-color: #dee1e8; */
+/* section feature-row-boxes (image with text in box). center text title */
+.text-wrapper h2 {
+  text-align: center;
 }
 
-/* no. goes around image when image gets small */
-/* .feature-row {
-  background-color: #dee1e8;
-} */
-
-
-/* text padding on image with text ?? */
-/* @media only screen and (min-width: 750px) {
-  .feature-row__text--left {
-    padding-right: 35px;
+/* section feature-row-boxes (image with text in box). gutter between image and text */
+@media screen and (min-width:750px){
+  .text-box--right {
+    padding-right: 60px;
   }
-} */
+  .text-box--left {
+    padding-left: 60px;
+  }
+}
 
-/* image with text. #shopify-section-16145478211077bc3b  {
-  background-color: #dee1e8;
-} */
+/* section feature-row-boxes (image with text in box). bottom text padding for mobile */
+@media screen and (max-width:749px){
+  .text-box--right {
+    padding-right: 35px;
+    padding-bottom: 35px;
+  }
+  .text-box--left {
+    padding-left: 35px;
+    padding-bottom: 35px;
+  }
+}
 
-/* for use with feature-row (image with text) */
-/* .back-color {
-  background-color: #dee1e8; 
-} */
-
-/* change this so image with text stretches to edges. 
-also need to add this section to page-width above 
-and see <style> in section for max-width and max-height */
+/*  section feature-row-boxes (image with text in box). change this so image with text stretches to bottom. */
 .feature-row__image-wrapper {
   margin: 0;
-  /* position: relative;
-  width: 100%; */
 }
 
-/* font color on collections */
-/* .collection-grid-item__title {
-  color: white;
+/* section feature-row-boxes (image with text in box). background color */
+/* #shopify-section-1616439409d96e6cb4 .text-wrapper {
+  background-color: rgb(175,191,205);
+}
+#shopify-section-1616440860b626a2e2  .text-wrapper {
+  background-color: #cfd2da;
 } */

@@ -27,12 +27,12 @@
     </div>
   {% endcapture %}
 
-  <div class="feature-row">
+  <div class="feature-row text-wrapper">
     {% if section.settings.layout == 'left' %}
       {{ image_layout }}
     {% endif %}
 
-    <div class="feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
+    <div class="text-wrapper feature-row__item feature-row__text feature-row__text--{{ section.settings.layout }}">
       {% if section.settings.title != blank %}
         <h2 class="h3">{{ section.settings.title | escape }}</h2>
       {% endif %}
@@ -73,7 +73,7 @@
     "cs": "Obrázek s textem",
     "da": "Billede med tekst",
     "de": "Foto mit Text",
-    "en": "Image with text",
+    "en": "Image with text in box",
     "es": "Imagen con texto",
     "fi": "Kuva tekstillä",
     "fr": "Image avec texte",
@@ -233,7 +233,7 @@
         "cs": "Obrázek s textem",
         "da": "Billede med tekst",
         "de": "Foto mit Text",
-        "en": "Image with text",
+        "en": "Image with text in box",
         "es": "Imagen con texto",
         "fi": "Kuva tekstillä",
         "fr": "Image avec texte",
@@ -364,7 +364,7 @@
         "cs": "Obrázek s textem",
         "da": "Billede med tekst",
         "de": "Foto mit Text",
-        "en": "Image with text",
+        "en": "Image with text in box",
         "es": "Imagen con texto",
         "fi": "Kuva tekstillä",
         "fr": "Image avec texte",
