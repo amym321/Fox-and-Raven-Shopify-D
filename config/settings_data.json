@@ -62,9 +62,9 @@
         "disabled": true,
         "settings": {
           "image": "",
-          "layout": "",
-          "title": "",
-          "text": "<p><\/p>",
+          "layout": "left",
+          "title": "Image with text in box",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
           "color_bg": "",
           "button_label": ""
         }
@@ -293,6 +293,7 @@
       },
       "16145478211077bc3b": {
         "type": "feature-row",
+        "disabled": true,
         "settings": {
           "image": "shopify:\/\/shop_images\/necklace_1.jpg",
           "layout": "left",
@@ -401,7 +402,7 @@
           "7a3c41f7-b0bc-4e9f-a6ec-638cac7ac224": {
             "type": "featured_collection",
             "settings": {
-              "collection": "pendants"
+              "collection": "pendant-necklaces"
             }
           },
           "16152394529d793a6c-2": {
@@ -454,6 +455,48 @@
           "cart_ajax_enable": true,
           "cart_notes_enable": false
         }
+      },
+      "1616547849485b9231": {
+        "type": "feature-row-boxes",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/necklace_14k_6_2_5_1.2_100.jpg",
+          "layout": "left",
+          "title": "Artisan Crafted",
+          "text": "<p>Each piece is a work of art, designed, hand-cut, hammered, polished, and fabricated with care using superior gemstones and metals.<\/p>",
+          "color_bg": "#afbfcd",
+          "button_label": ""
+        }
+      },
+      "product-customizable-template": {
+        "type": "product-customizable-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
+        }
+      },
+      "product-recommendations": {
+        "type": "product-recommendations",
+        "settings": {
+          "show_product_recommendations": true,
+          "heading": "You may also like",
+          "show_vendor": false
+        }
+      },
+      "16166022092ec4f84d": {
+        "type": "feature-row-boxes",
+        "settings": {
+          "image": "shopify:\/\/shop_images\/bracelet_36b_8_8_10_1_100.jpg",
+          "layout": "right",
+          "title": "Beautiful Distinction",
+          "text": "<p>One of a kind handcrafted designs. Inspired by nature&#x27;s beauty, incorporating subtle shimmer, colorful gemstones, and textural elements for unsurpassed distinction.<\/p>",
+          "color_bg": "#cfd2da",
+          "button_label": ""
+        }
       }
     },
     "content_for_index": [
@@ -461,6 +504,8 @@
       "1614546841520f78a2",
       "image-bar",
       "16145478211077bc3b",
+      "1616547849485b9231",
+      "16166022092ec4f84d",
       "16152394529d793a6c",
       "1614547197c61f47d2",
       "1614547215bcf86043",
