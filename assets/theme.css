@@ -7133,10 +7133,10 @@ hr {
 	letter-spacing: 0.08em;
 	white-space: normal;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 750px) {
   .contact-button2 {
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 75px;
+    padding-right: 75px;
   }
 }
 
@@ -7269,9 +7269,9 @@ hr {
 }
 
 /* section feature-row-boxes (image with text in box). background color */
-/* #shopify-section-1616439409d96e6cb4 .text-wrapper {
+/* #shopify-section-1616547849485b9231 .text-wrapper {
   background-color: rgb(175,191,205);
 }
-#shopify-section-1616440860b626a2e2  .text-wrapper {
+#shopify-section-16166022092ec4f84d  .text-wrapper {
   background-color: #cfd2da;
 } */
