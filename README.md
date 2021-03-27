@@ -12,6 +12,8 @@
 <br><br>
 <img src="https://github.com/amym321/Fox-and-Raven-Shopify-D/blob/master/project-images/FoxRaven.jpg" width="650">
 <br><br><br>
+<img src="https://github.com/amym321/Fox-and-Raven-Shopify-D/blob/master/project-images/CTA.jpg" width="200">
+<br><br><br>
 <img src="https://github.com/amym321/Fox-and-Raven-Shopify-D/blob/master/project-images/editor1.jpg" width="200">
 <br><br><br>
 <img src="https://github.com/amym321/Fox-and-Raven-Shopify-D/blob/master/project-images/editor2.jpg" width="650">
