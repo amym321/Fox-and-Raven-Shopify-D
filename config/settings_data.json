@@ -470,8 +470,8 @@
           "title": "Artisan Crafted",
           "text": "<p>Each piece is a work of art, designed, hand-cut, hammered, polished, and fabricated with care using superior gemstones and metals.<\/p>",
           "color_bg": "#afbfcd",
-          "button_label": "",
-          "button_link": ""
+          "button_label": "Shop Unique Pendants",
+          "button_link": "shopify:\/\/collections\/pendant-necklaces"
         }
       },
       "product-customizable-template": {
@@ -500,10 +500,10 @@
           "image": "shopify:\/\/shop_images\/bracelet_36b_8_8_10_1_100.jpg",
           "layout": "right",
           "title": "Beautiful Distinction",
-          "text": "<p>One of a kind handcrafted designs. Inspired by nature&#x27;s beauty, incorporating subtle shimmer and colorful gemstones for unsurpassed distinction.<\/p>",
+          "text": "<p>One of a kind handcrafted designs. Inspired by nature's beauty, incorporating subtle shimmer and colorful gemstones for unsurpassed distinction.<\/p>",
           "color_bg": "#cfd2da",
-          "button_label": "",
-          "button_link": ""
+          "button_label": "Shop Fine Gemstones",
+          "button_link": "shopify:\/\/collections\/gemstones"
         }
       },
       "product-template": {
