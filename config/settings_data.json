@@ -11,8 +11,9 @@
     "image_overlay_opacity": 0,
     "color_body_bg": "#f3f3f3",
     "type_header_font": "cardo_n4",
+    "type_header_base_size": 30,
     "type_base_font": "abel_n4",
-    "type_base_size": 16,
+    "type_base_size": 18,
     "social_facebook_link": "https:\/\/www.facebook.com\/foxandravenjewelry\/",
     "social_pinterest_link": "https:\/\/www.pinterest.com\/foxandravenjewelry\/",
     "favicon": "shopify:\/\/shop_images\/favicon2_95424f5f-c3a5-48b7-9656-9cd4ef5613d6.png",
@@ -29,6 +30,7 @@
           "message": true,
           "home_page_only": true,
           "message_text": "Due to Covid-19, your order may take longer to be delivered",
+          "message_link": "",
           "color_bg": "#0f245a",
           "color_text": "#ffffff"
         }
@@ -43,7 +45,8 @@
           "text_size": "medium",
           "title": "",
           "text": "",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
         }
       },
       "feature-row": {
@@ -165,6 +168,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/necklace_1.jpg",
               "alignment": "center",
+              "link": "",
               "cta_label": ""
             }
           },
@@ -173,6 +177,7 @@
             "settings": {
               "image": "shopify:\/\/shop_images\/background_light_gray_blue.jpg",
               "alignment": "center",
+              "link": "",
               "cta_label": "Artisan Crafted with Care. Welcome to Fox and Raven Jewelry. We create beautiful, one of a kind handcrafted designs using superior gemstones and metals. Each piece we create is a work of art ~ designed, hand-cut, hammered, polished, drilled and fabricated with care. Inspired by nature's beauty, Fox and Raven incorporates subtle shimmer, colorful gemstones, and textural elements for unsurpassed distinction."
             }
           }
@@ -299,7 +304,8 @@
           "layout": "left",
           "title": "Artisan Crafted with Care",
           "text": "<p>Welcome to Fox and Raven Jewelry. We create beautiful, one of a kind handcrafted designs using superior gemstones and metals. Each piece we create is a work of art ~ designed, hand-cut, hammered, polished, drilled and fabricated with care.<\/p><p>Inspired by nature&#x27;s beauty, Fox and Raven incorporates subtle shimmer, colorful gemstones, and textural elements for unsurpassed distinction.<\/p>",
-          "button_label": "Buy Lion Necklace"
+          "button_label": "Buy Lion Necklace",
+          "button_link": ""
         }
       },
       "collection-template": {
@@ -464,7 +470,8 @@
           "title": "Artisan Crafted",
           "text": "<p>Each piece is a work of art, designed, hand-cut, hammered, polished, and fabricated with care using superior gemstones and metals.<\/p>",
           "color_bg": "#afbfcd",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
         }
       },
       "product-customizable-template": {
@@ -495,7 +502,20 @@
           "title": "Beautiful Distinction",
           "text": "<p>One of a kind handcrafted designs. Inspired by nature&#x27;s beauty, incorporating subtle shimmer and colorful gemstones for unsurpassed distinction.<\/p>",
           "color_bg": "#cfd2da",
-          "button_label": ""
+          "button_label": "",
+          "button_link": ""
+        }
+      },
+      "product-template": {
+        "type": "product-template",
+        "settings": {
+          "show_quantity_selector": false,
+          "show_vendor": false,
+          "enable_payment_button": true,
+          "show_share_buttons": true,
+          "media_size": "medium",
+          "enable_image_zoom": true,
+          "enable_video_looping": false
         }
       }
     },
