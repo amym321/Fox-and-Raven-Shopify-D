@@ -293,7 +293,7 @@
 
       <div class="grid__item {% if show_selectors or show_payment_icons %}one-half{% endif %} small--one-whole site-footer-item-tall">
         {%- if social_icons -%}
-          <ul class="list--inline site-footer__social-icons social-icons site-footer__icon-list">
+          <ul class="list--inline site-footer__social-icons social-icons site-footer__icon-list text-center">
             {%- for social in socials -%}
               {%- assign social_link = social | prepend: 'social_' | append: '_link' | downcase -%}
               {%- assign icon_link = social | prepend: 'icon-' | downcase -%}
@@ -309,7 +309,7 @@
 
             {%- if request.page_type == 'blog' or request.page_type == 'article' -%}
               <li>
-                <a class="social-icons__link" href="{{ shop.url }}{{ blog.url }}.atom">
+                <a class="social-icons__link text-center" href="{{ shop.url }}{{ blog.url }}.atom">
                   {% include 'icon-rss' %}
                   <span class="icon__fallback-text">RSS</span>
                 </a>
@@ -318,9 +318,9 @@
           </ul>
         {%- else -%}
           <div class="small--hide site-footer-item-align-right text-center {% if show_selectors or show_payment_icons %}site-footer-item-center-vertically{% endif %}">
-            <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+            <small class="site-footer__copyright-content ">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
             {% comment %}
-            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by">{{ powered_by_link }}</small>
+            <small class="site-footer__copyright-content site-footer__copyright-content-powered-by text-center">{{ powered_by_link }}</small>
             {% endcomment %}
           </div>
         {%- endif -%}
@@ -333,15 +333,19 @@
       <div class="grid__item medium-up--hide {{ payment_width_class }} small--one-whole">{{ payment_icon_markup }}</div>
 
       {%- if social_icons and show_selectors -%}
-        <div class="grid__item small--hide site-footer-item-align-right {% if show_payment_icons %}one-half{% endif %}">
-          <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+        <div class="grid__item small--hide site-footer-item-align-right text-center {% if show_payment_icons %}one-half{% endif %}">
+          <small class="site-footer__copyright-content ">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+          {% comment %}
           <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">{{ powered_by_link }}</small>
+          {% endcomment %}
         </div>
       {%- endif -%}
 
-      <div class="grid__item small--one-whole {{ copyright_show_class }} site-footer-item-align-right">
-        <small class="site-footer__copyright-content">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+      <div class="grid__item small--one-whole text-center {{ copyright_show_class }} site-footer-item-align-right">
+        <small class="site-footer__copyright-content ">&copy; {{ 'now' | date: "%Y" }}, {{ shop.name | link_to: routes.root_url }}</small>
+        {% comment %}
         <small class="site-footer__copyright-content site-footer__copyright-content--powered-by">{{ powered_by_link }}</small>
+        {% endcomment %}
       </div>
     </div>
   </div>

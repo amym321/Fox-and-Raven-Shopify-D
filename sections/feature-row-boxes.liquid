@@ -27,9 +27,10 @@
     </div>
   {% endcapture %}
 
-  <!-- <style>.text-wrapper { background-color: {{ section.settings.color_bg }};}</style> -->
   <div class="feature-row text-wrapper">
-    <style>.text-wrapper { background-color: {{ section.settings.color_bg }}; }</style>
+    {% if section.settings.color_bg != blank %}
+      <style>.text-wrapper { background-color: {{ section.settings.color_bg }}; }</style>
+    {% endif %}
     {% if section.settings.layout == 'left' %}
       {{ image_layout }}
     {% endif %}

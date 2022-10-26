@@ -13,6 +13,7 @@
 {% endunless %}
 <div class="grid-view-item{% unless product.available %} product-price--sold-out grid-view-item--sold-out{% endunless %}">
   <a class="grid-view-item__link {% if product.images.size > 1 %} has-secondary {% endif %}" href="{{ product.url | within: collection }}">
+    <!-- crop argument to auto square image, thus fitting/filling wrapper -->
     <img class="grid-view-item__image" src="{{ product.featured_image.src | img_url: grid_image_width, crop: 'center' }}" alt="{{ product.featured_image.alt }}">
     {% if product.images.size > 1 %}
      <img class="secondary" src="{{ product.images.last | img_url: grid_image_width, crop: 'center' }}" alt="{{ product.images.last.alt | escape }}">
